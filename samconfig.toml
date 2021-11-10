@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "ironclad-POC"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-6miwi01gs8e2"
+s3_prefix = "ironclad-POC"
+region = "us-east-1"
+confirm_changeset = false
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
